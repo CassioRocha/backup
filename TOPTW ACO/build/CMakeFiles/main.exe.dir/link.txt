@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -O2 -Wall -g  -rdynamic CMakeFiles/main.exe.dir/main.cpp.o  -o main.exe  -Wl,-rpath,"/home/oem/Desktop/ACO/TOPTW ACO/build/src" src/libgreetings.so 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11 -O2 -Wall -g  -shared -Wl,-soname,libgreetings.so -o libgreetings.so CMakeFiles/greetings.dir/colony.cpp.o CMakeFiles/greetings.dir/graph.cpp.o CMakeFiles/greetings.dir/touristSpots.cpp.o CMakeFiles/greetings.dir/fileloader.cpp.o 

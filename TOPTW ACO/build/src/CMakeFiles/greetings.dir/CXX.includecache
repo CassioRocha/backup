@@ -1,0 +1,78 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/colony.h
+vector
+-
+graph.h
+../include/graph.h
+
+../include/fileloader.h
+iostream
+-
+fstream
+-
+sstream
+-
+vector
+-
+
+../include/graph.h
+vector
+-
+unordered_map
+-
+touristSpots.h
+../include/touristSpots.h
+
+../include/touristSpots.h
+vector
+-
+
+/home/oem/Desktop/ACO/TOPTW ACO/src/colony.cpp
+iostream
+-
+vector
+-
+random
+-
+algorithm
+-
+colony.h
+/home/oem/Desktop/ACO/TOPTW ACO/src/colony.h
+
+/home/oem/Desktop/ACO/TOPTW ACO/src/fileloader.cpp
+fileloader.h
+/home/oem/Desktop/ACO/TOPTW ACO/src/fileloader.h
+
+/home/oem/Desktop/ACO/TOPTW ACO/src/graph.cpp
+iostream
+-
+vector
+-
+string
+-
+cmath
+-
+iomanip
+-
+graph.h
+/home/oem/Desktop/ACO/TOPTW ACO/src/graph.h
+
+/home/oem/Desktop/ACO/TOPTW ACO/src/touristSpots.cpp
+iostream
+-
+touristSpots.h
+/home/oem/Desktop/ACO/TOPTW ACO/src/touristSpots.h
+cmath
+-
+graph.h
+/home/oem/Desktop/ACO/TOPTW ACO/src/graph.h
+vector
+-
+
